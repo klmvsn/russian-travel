@@ -1,0 +1,27 @@
+.place {
+    margin-bottom: 80px;
+}
+
+.place:last-of-type {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        margin-bottom: 73px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin-bottom: 50px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 66px;
+    }
+}
