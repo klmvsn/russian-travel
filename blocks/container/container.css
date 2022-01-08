@@ -12,6 +12,10 @@
     .container {
         margin: 0 24px;
     }
+
+    .container:first-of-type {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {

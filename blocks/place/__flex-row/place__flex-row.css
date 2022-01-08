@@ -1,5 +1,8 @@
 .place__flex-row {
     display: flex;
+}
+
+.place__flex-row:first-of-type {
     margin-bottom: 48px;
 }
 
@@ -7,5 +10,9 @@
     .place__flex-row {
         flex-direction: column;
         margin-bottom: 0;
+    }
+
+    .place__flex-row:first-of-type {
+        margin-bottom: 32px;
     }
 }

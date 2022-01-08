@@ -30,5 +30,6 @@
         margin: 0 16px 32px;
         align-self: start;
         flex-basis: auto;
+        min-width: 288px;
     }
 }
