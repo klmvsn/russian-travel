@@ -4,22 +4,16 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    margin-right: 18px;
 }
 
 .footer__link:hover {
     opacity: .8;
-    transform: .3s;
+    transition: .3s;
 }
 
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;
-        margin: 0 0 32px;
-    }
-
-    .footer__link:last-of-type {
-        margin: 0;
     }
 }

@@ -1,18 +1,18 @@
-.place__flex-row {
+.place__flex-grid {
     display: flex;
 }
 
-.place__flex-row:first-of-type {
+.place__flex-grid:first-of-type {
     margin-bottom: 48px;
 }
 
 @media screen and (max-width: 767px) {
-    .place__flex-row {
+    .place__flex-grid {
         flex-direction: column;
         margin-bottom: 0;
     }
 
-    .place__flex-row:first-of-type {
+    .place__flex-grid:first-of-type {
         margin-bottom: 32px;
     }
 }
